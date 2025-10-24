@@ -17,7 +17,7 @@ function generate_user_id() {
 // 「管理人」ネーム制限（IP制限）
 function check_name_permission($name) {
     $ip = $_SERVER['REMOTE_ADDR'] ?? '';
-    if (strpos($name, '管理人') !== false && $ip !== '14.15.67.31') {
+    if (strpos($name, '管理人') !== false && $ip !== '管理人のip') {
         return false;
     }
     return true;
