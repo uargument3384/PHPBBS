@@ -1,5 +1,5 @@
 <?php
-// Copyright 2025 ppmk8player PHPBBS This is Message By Not Delete
+// Copyright 2025-2026 satohina PHPBBS This is Message By Not Delete
 function h($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
 
 $data_dir = __DIR__ . '/data';
